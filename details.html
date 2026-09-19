@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تفاصيل المقال | أبو حور - الأبواب الخشبية والديكورات</title>
+  <meta name="description" content="مقال تفصيلي عن خدمات شركة أبو حور في مجال تصنيع وتركيب الأبواب الخشبية وأبواب WPC والديكورات والخزائن ودرابزين السلالم بالرياض" />
+  <meta name="keywords" content="أبواب خشب, أبواب WPC, ديكورات بديل الشيبورد, خزائن, درابزين سلالم, أبو حور, الرياض" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --c-primary: #1b3a4b;
+      --c-primary-light: #2d5a6f;
+      --c-primary-dark: #0d2230;
+      --c-secondary: #cc7a3a;
+      --c-secondary-light: #e09850;
+      --c-secondary-dark: #a85e28;
+      --c-warm: #e8a04c;
+      --c-warm-light: #f0b870;
+      --c-bg: #faf8f5;
+      --c-bg-alt: #f0ece5;
+      --c-text: #1a1a2e;
+      --c-text-light: #3d3d5c;
+      --c-text-muted: #6a6a85;
+      --c-white: #ffffff;
+      --c-border: #e0dcd4;
+      --font-main: 'Cairo', sans-serif;
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --shadow-sm: 0 2px 8px rgba(13, 36, 64, 0.08);
+      --shadow-md: 0 8px 24px rgba(13, 36, 64, 0.12);
+      --shadow-lg: 0 20px 50px rgba(13, 36, 64, 0.15);
+      --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      --transition-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: hidden; }
+
+    body {
+      font-family: var(--font-main);
+      background: var(--c-bg);
+      color: var(--c-text);
+      line-height: 1.7;
+      overflow-x: hidden;
+      width: 100%;
+      font-size: 17px;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+    button { font-family: inherit; cursor: pointer; border: none; background: none; }
+
+    .container { max-width: 900px; margin: 0 auto; padding: 0 40px; }
+
+    .details-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--c-border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .details-header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 40px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: linear-gradient(135deg, var(--c-secondary), var(--c-secondary-dark));
+      color: var(--c-white);
+      border-radius: 50px;
+      font-size: 14px;
+      font-weight: 700;
+      transition: all var(--transition-bounce);
+      box-shadow: 0 4px 12px rgba(204, 122, 58, 0.3);
+    }
+
+    .back-btn svg { width: 18px; height: 18px; }
+
+    .back-btn:hover {
+      transform: translateX(4px);
+      box-shadow: 0 8px 20px rgba(204, 122, 58, 0.4);
+    }
+
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .header-logo svg { width: 32px; height: 32px; color: var(--c-secondary); }
+
+    .header-logo span {
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--c-primary-dark);
+    }
+
+    .details-hero {
+      background: linear-gradient(135deg, #0d2230 0%, #1b3a4b 50%, #2d5a6f 100%);
+      padding: 60px 0 50px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .details-hero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image:
+        repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(204, 122, 58, 0.05) 35px, rgba(204, 122, 58, 0.05) 70px);
+      animation: patternMove 20s linear infinite;
+    }
+
+    @keyframes patternMove {
+      0% { background-position: 0 0; }
+      100% { background-position: 70px 70px; }
+    }
+
+    .details-hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .details-category {
+      display: inline-block;
+      padding: 8px 20px;
+      background: rgba(204, 122, 58, 0.18);
+      color: var(--c-warm-light);
+      border: 1px solid rgba(204, 122, 58, 0.3);
+      border-radius: 50px;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .details-title {
+      font-size: 36px;
+      font-weight: 900;
+      color: var(--c-white);
+      line-height: 1.35;
+      margin-bottom: 16px;
+    }
+
+    .details-meta {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      color: rgba(255, 255, 255, 0.68);
+      font-size: 14px;
+    }
+
+    .details-meta span { display: inline-flex; align-items: center; gap: 6px; }
+
+    .details-body {
+      padding: 50px 0 80px;
+    }
+
+    .details-image-wrap {
+      margin-bottom: 40px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      aspect-ratio: 16/9;
+      background: var(--c-bg-alt);
+      border: 1px solid var(--c-border);
+      box-shadow: var(--shadow-lg);
+      position: relative;
+    }
+
+    .details-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .details-image[src=""] { display: none; }
+
+    .details-image-placeholder {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      color: var(--c-text-muted);
+      background: linear-gradient(135deg, var(--c-bg-alt), #e8e4dc);
+    }
+
+    .details-image:not([src=""]) ~ .details-image-placeholder { display: none; }
+
+    .details-image-placeholder svg { width: 56px; height: 56px; opacity: 0.3; }
+
+    .details-image-placeholder span { font-size: 14px; }
+
+    .article-content {
+      font-size: 18px;
+      line-height: 1.9;
+      color: var(--c-text-light);
+    }
+
+    .article-content h2 {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--c-primary-dark);
+      margin: 40px 0 16px;
+      line-height: 1.4;
+    }
+
+    .article-content h3 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--c-primary);
+      margin: 32px 0 14px;
+    }
+
+    .article-content p {
+      margin-bottom: 20px;
+    }
+
+    .article-content ul {
+      margin: 20px 0;
+      padding-right: 24px;
+    }
+
+    .article-content ul li {
+      position: relative;
+      padding-right: 20px;
+      margin-bottom: 12px;
+      list-style: none;
+    }
+
+    .article-content ul li::before {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 10px;
+      width: 8px;
+      height: 8px;
+      background: var(--c-secondary);
+      border-radius: 50%;
+    }
+
+    .article-content strong {
+      color: var(--c-primary-dark);
+      font-weight: 700;
+    }
+
+    .article-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 50px;
+      padding-top: 30px;
+      border-top: 1px solid var(--c-border);
+    }
+
+    .article-tags span {
+      padding: 8px 18px;
+      background: rgba(27, 58, 75, 0.06);
+      color: var(--c-primary);
+      border-radius: 50px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .article-cta {
+      margin-top: 40px;
+      padding: 36px;
+      background: linear-gradient(135deg, #1b3a4b, #0d2230);
+      border-radius: var(--radius-lg);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .article-cta::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image:
+        repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(204, 122, 58, 0.05) 35px, rgba(204, 122, 58, 0.05) 70px);
+    }
+
+    .article-cta-content { position: relative; z-index: 2; }
+
+    .article-cta h3 {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--c-white);
+      margin-bottom: 12px;
+    }
+
+    .article-cta p {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.78);
+      margin-bottom: 24px;
+    }
+
+    .article-cta-buttons {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-size: 15px;
+      font-weight: 700;
+      transition: all var(--transition-bounce);
+    }
+
+    .cta-btn svg { width: 18px; height: 18px; }
+
+    .cta-btn-primary {
+      background: linear-gradient(135deg, var(--c-secondary), var(--c-secondary-dark));
+      color: var(--c-white);
+      box-shadow: 0 6px 20px rgba(204, 122, 58, 0.35);
+    }
+
+    .cta-btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(204, 122, 58, 0.45);
+    }
+
+    .cta-btn-outline {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--c-white);
+      border: 2px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .cta-btn-outline:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: var(--c-white);
+      transform: translateY(-3px);
+    }
+
+    .details-footer {
+      background: var(--c-primary-dark);
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    .details-footer p {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .details-footer a {
+      color: var(--c-warm-light);
+      font-weight: 700;
+    }
+
+    .floating-buttons {
+      position: fixed;
+      bottom: 30px;
+      left: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      z-index: 900;
+    }
+
+    .floating-btn {
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: var(--c-white);
+      box-shadow: var(--shadow-lg);
+      transition: all var(--transition-bounce);
+    }
+
+    .floating-btn svg { width: 26px; height: 26px; }
+
+    .floating-call {
+      background: linear-gradient(135deg, var(--c-secondary), var(--c-secondary-dark));
+      animation: floatPulse 2.5s ease-in-out infinite;
+    }
+
+    .floating-wa {
+      background: linear-gradient(135deg, #25d366, #128c4a);
+      animation: floatPulse 2.5s ease-in-out infinite 0.5s;
+    }
+
+    @keyframes floatPulse {
+      0%, 100% { transform: translateY(0); box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+      50% { transform: translateY(-6px); box-shadow: 0 12px 30px rgba(0,0,0,0.3); }
+    }
+
+    .floating-btn:hover { transform: scale(1.12); }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .fade-in.revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 768px) {
+      .container { padding: 0 20px; }
+      .details-header-inner { padding: 0 20px; height: 64px; }
+      .back-btn { padding: 8px 16px; font-size: 13px; }
+      .header-logo span { font-size: 20px; }
+      .details-title { font-size: 24px; }
+      .article-content { font-size: 15px; }
+      .article-content h2 { font-size: 22px; }
+      .article-content h3 { font-size: 19px; }
+      .article-cta { padding: 28px 20px; }
+      .article-cta h3 { font-size: 20px; }
+      .cta-btn { width: 100%; justify-content: center; }
+      .floating-buttons { bottom: 20px; left: 20px; }
+      .floating-btn { width: 50px; height: 50px; }
+      .floating-btn svg { width: 22px; height: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="details-header">
+    <div class="details-header-inner">
+      <a href="/index.html" class="back-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 5"/>
+        </svg>
+        <span>العودة للرئيسية</span>
+      </a>
+      <div class="header-logo">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="4" width="32" height="40" rx="3" stroke="currentColor" stroke-width="2.5"/>
+          <line x1="24" y1="4" x2="24" y2="44" stroke="currentColor" stroke-width="2"/>
+          <circle cx="18" cy="24" r="2.5" fill="currentColor"/>
+          <circle cx="30" cy="24" r="2.5" fill="currentColor"/>
+        </svg>
+        <span>أبو حور</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="details-hero">
+    <div class="container details-hero-content">
+      <span class="details-category" id="articleCategory">تصنيف</span>
+      <h1 class="details-title" id="articleTitle">عنوان المقال</h1>
+      <div class="details-meta">
+        <span id="articleDate">التاريخ</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="details-body">
+    <div class="container">
+      <div class="details-image-wrap fade-in">
+        <img src="images/blog1.png" alt="صورة المقال" class="details-image" id="articleImage" />
+        <div class="details-image-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>أضف صورة المقال هنا</span>
+        </div>
+      </div>
+
+      <div class="article-content fade-in" id="articleContent">
+      </div>
+
+      <div class="article-tags fade-in" id="articleTags">
+      </div>
+
+      <div class="article-cta fade-in">
+        <div class="article-cta-content">
+          <h3>هل تحتاج مساعدة في اختيار الأنسب لمنزلك؟</h3>
+          <p>تواصل معنا الآن للحصول على استشارة مجانية وعرض سعر تفصيلي من فريق أبو حور المتخصص</p>
+          <div class="article-cta-buttons">
+            <a href="tel:0570525719" class="cta-btn cta-btn-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span>اتصل بنا</span>
+            </a>
+            <a href="https://wa.me/966570525719" target="_blank" rel="noopener" class="cta-btn cta-btn-outline">
+              <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+              </svg>
+              <span>واتساب</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="details-footer">
+    <div class="container">
+      <p>جميع الحقوق محفوظة © 2026 شركة أبو حور · تصميم وبرمجة <a href="https://www.facebook.com/share/17UzqgSwiu/" target="_blank" rel="noopener">GMTWeb</a></p>
+    </div>
+  </footer>
+
+  <div class="floating-buttons">
+    <a href="tel:0570525719" class="floating-btn floating-call" aria-label="اتصل بنا">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      </svg>
+    </a>
+    <a href="https://wa.me/966570525719" target="_blank" rel="noopener" class="floating-btn floating-wa" aria-label="واتساب">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+      </svg>
+    </a>
+  </div>
+
+  <script>
+    (function () {
+      'use strict';
+
+      var articles = {
+        '1': {
+          category: 'أبواب خشب',
+          title: 'أنواع الأبواب الخشبية وكيفية اختيار الأنسب لمنزلك',
+          date: '15 سبتمبر 2026',
+          tags: ['أبواب خشبية', 'خشب زان', 'خشب موسكي', 'قشرة طبيعية', 'أبواب داخلية', 'أبواب خارجية', 'MDF', 'نجارة', 'تصميم أبواب', 'الرياض'],
+          content: [
+            { type: 'p', text: 'تعتبر الأبواب الخشبية من أهم عناصر الديكور الداخلي والخارجي لأي منزل أو مكتب، فهي لا توفر الخصوصية والأمان فحسب، بل تضيف لمسة جمالية تُكمل تصميم المكان. في السوق السعودي، تتنوع الأبواب الخشبية بشكل كبير من حيث الخامات والتصاميم والأسعار، مما يجعل عملية الاختيار تحدياً للكثيرين. في هذا المقال، نقدم دليلاً شاملاً لأنواع الأبواب الخشبية المتوفرة وكيفية اختيار الأنسب لمنزلك.' },
+            { type: 'h2', text: 'أنواع الأخشاب المستخدمة في تصنيع الأبواب' },
+            { type: 'p', text: 'يختلف جودة الباب الخشبي ومتانته وسعره بشكل كبير حسب نوع الخشب المستخدم في تصنيعه. إليك أبرز أنواع الأخشاب المستخدمة:' },
+            { type: 'ul', items: [
+              'خشب الزان: من أجود أنواع الأخشاب المستخدمة في تصنيع الأبواب، يتميز بصلابته ومتانته العالية ولونه الفاتح الجميل، ويقبل الدهان والقشرة بسهولة. يُعتبر خياراً مثالياً للأبواب الداخلية والخارجية على حد سواء.',
+              'خشب الموسكي: خشب متوسط الصلابة، يتميز بسعره الاقتصادي وتوفّره بكثرة في السوق السعودي، مناسب للأبواب الداخلية ذات الاستخدام المتوسط.',
+              'ألواح MDF: ألواح ليفية متوسطة الكثافة، مصنوعة من ألياف الخشب المضغوط، تتميز بسطح أملس مثالي للدهان والقشرة، ومقاومة جيدة للرطوبة. تستخدم بكثرة في الأبواب الحديثة والديكورات.',
+              'ألواح HDF: ألواح ليفية عالية الكثافة، أصلب وأكثر متانة من MDF، تستخدم في الأبواب عالية الجودة وبعض التطبيقات التي تتطلب مقاومة عالية.',
+              'الفورمايكا: ألواح مغطاة بطبقة من البلاستيك المضغوط المقاوم للماء والخدوش، متوفرة بألوان وتشطيبات متنوعة تحاكي الخشب الطبيعي.'
+            ]},
+            { type: 'h2', text: 'أنواع الأبواب الخشبية حسب التصميم' },
+            { type: 'h3', text: 'الأبواب المصمتة (Solid Doors)' },
+            { type: 'p', text: 'الأبواب المصمتة مصنوعة من خشب طبيعي كامل أو ألواح MDF/HDF سميكة، تتميز بصلابتها وعزلها الجيد للصوت ووزنها الثقيل. تُعتبر الأنسب للأبواب الرئيسية وأبواب الغرف التي تتطلب خصوصية عالية. تتميز أيضاً بعمر افتراضي طويل ومقاومة عالية للاستخدام.' },
+            { type: 'h3', text: 'الأبواب المجوفة (Hollow Doors)' },
+            { type: 'p', text: 'الأبواب المجوفة تتكون من إطار خارجي مع قلب فارغ أو مبطن بمادة خفيفة، وهي أخف وزناً وأقل سعراً من المصمتة. مناسبة للأبواب الداخلية ذات الاستخدام الخفيف مثل أبواب الحمامات والمخازن. تتميز بسهولة التركيب والسعر الاقتصادي.' },
+            { type: 'h3', text: 'الأبواب بزخارف نباتية وهندسية' },
+            { type: 'p', text: 'تأتي الأبواب الخشبية بتصاميم زخرفية متنوعة، من الزخارف النباتية الكلاسيكية إلى الخطوط الهندسية العصرية. يمكن تفصيل أي تصميم يطلبه العميل بأشكال هندسية أو زخرفية تعكس ذوقه الشخصي وتنسجم مع ديكور المكان.' },
+            { type: 'h2', text: 'أنواع القشرة الخشبية' },
+            { type: 'p', text: 'القشرة الخشبية هي طبقة رقيقة من الخشب الطبيعي تُلصق على سطح الباب لإعطائه مظهر الخشب الطبيعي. تتوفر القشرة بأنواع وألوان متعددة:' },
+            { type: 'ul', items: [
+              'قشرة الزان: لون فاتح بعروق واضحة، تمنح الباب مظهراً طبيعياً أنيقاً.',
+              'قشرة الجوز: لون بنّي دافئ بعروق داكنة، تضفي فخامة على الباب.',
+              'قشرة السنديان: لون ذهبي بعروق ناعمة، مناسبة للديكورات الكلاسيكية.',
+              'قشرة الدارين: لون أحمر داكن، تتميز بجمالها الفريد.',
+              'قشرة مبيضة: تُدهن بأي لون يطلبه العميل، مناسبة للديكورات العصرية.'
+            ]},
+            { type: 'h2', text: 'كيفية اختيار الباب الأنسب لمنزلك' },
+            { type: 'p', text: 'عند اختيار باب خشبي لمنزلك، يجب مراعاة عدة عوامل لضمان الحصول على الأنسب:' },
+            { type: 'ul', items: [
+              'موقع الباب: الأبواب الخارجية تتطلب خشباً مصمتاً ومقاوماً للعوامل الجوية، بينما الأبواب الداخلية يمكن أن تكون مجوفة أو مصمتة حسب الميزانية.',
+              'الديكور العام: اختر تصميم الباب ولونه بما ينسجم مع ديكور الغرفة أو الممر الذي سيُركب فيه.',
+              'الميزانية: حدد ميزانيتك مسبقاً، فالأبواب المصمتة من خشب الزان أغلى من المجوفة من MDF.',
+              'الاستخدام: الأبواب ذات الاستخدام المكثف تتطلب خشباً أصلب وأكثر متانة.',
+              'العزل: إذا كانت الخصوصية مهمة، اختر أبواباً مصمتة توفر عزلاً أفضل للصوت.'
+            ]},
+            { type: 'h2', text: 'صيانة الأبواب الخشبية' },
+            { type: 'p', text: 'لضمان عمر افتراضي طويل لأبوابك الخشبية، ننصح باتباع عدة إرشادات بسيطة: تجنّب تعريض الأبواب للرطوبة العالية والماء المباشر، نظّف الأبواب بقطعة قماش جافة أو رطبة قليلاً، وتجنّب المنظفات الكيميائية القوية. كما ننصح بإعادة دهان الأبواب كل عدة سنوات للحفاظ على مظهرها الجمالي وحمايتها من العوامل الجوية.' },
+            { type: 'h2', text: 'لماذا تختار أبو حور لأبوابك الخشبية؟' },
+            { type: 'p', text: 'في شركة أبو حور، نقدم خدمة تصنيع وتركيب الأبواب الخشبية بأكملها بأجود الخامات وأحدث التصاميم. فريقنا من النجارين المحترفين يحوّل رؤيتك إلى واقع بأدق التفاصيل، مع ضمان على المنتج والتركيب وخدمة ما بعد البيع المتميزة. تواصل معنا اليوم للحصول على استشارة مجانية وعرض سعر تفصيلي.' }
+          ]
+        },
+        '2': {
+          category: 'أبواب WPC',
+          title: 'مزايا أبواب WPC ومقارنتها بالأبواب التقليدية',
+          date: '10 سبتمبر 2026',
+          tags: ['أبواب WPC', 'مقاومة الماء', 'بديل الخشب', 'أبواب حمامات', 'أبواب مطابخ', 'صديق للبيئة', 'تصميم عصري', 'الرياض', 'تركيب أبواب'],
+          content: [
+            { type: 'p', text: 'مع تطور تقنيات التصنيع وظهور خامات جديدة، أصبحت أبواب WPC خياراً متزايد الشعبية في السوق السعودي، خاصة في المناطق التي تتطلب مقاومة عالية للرطوبة والماء. في هذا المقال، نستعرض مزايا أبواب WPC ونقارنها بالأبواب التقليدية لمساعدتك في اتخاذ القرار الأنسب لاحتياجاتك.' },
+            { type: 'h2', text: 'ما هي أبواب WPC؟' },
+            { type: 'p', text: 'WPC هو اختصار لـ Wood Plastic Composite، أي مركّب خشب بلاستيكي. يتكون هذا المركب من مزيج من ألياف الخشب والبلاستيك والمواد الكيميائية المضافة، يُكبّس ويُشكّل في ألواح وأبواب عالية الجودة. يجمع WPC بين مظهر الخشب الطبيعي ومزايا البلاستيك من حيث المقاومة والمتانة.' },
+            { type: 'h2', text: 'مزايا أبواب WPC' },
+            { type: 'ul', items: [
+              'مقاومة عالية للماء والرطوبة: من أهم مزايا WPC، فهو لا يتأثر بالماء ولا يتورّم أو يتشوّه عند تعرضه للرطوبة، مما يجعله مثالياً لأبواب الحمامات والمطابخ والمناطق الساحلية.',
+              'مقاومة للحشرات والفطريات: لا تجذب مادة WPC الحشرات والنمل الأبيض، ولا تنمو عليها الفطريات والعفن، مما يضمن عمراً افتراضياً طويلاً.',
+              'متانة عالية: أبواب WPC متينة وتتحمل الاستخدام اليومي المكثف، ولا تتشقق أو تتكسر بسهولة.',
+              'صديق للبيئة: يُصنع من مواد معاد تدويرها، مما يجعله خياراً بيئياً مستداماً.',
+              'سهولة الصيانة: لا تتطلب أبواب WPC دهاناً دورياً أو صيانة معقدة، يكفي تنظيفها بقطعة قماش رطبة.',
+              'سعر اقتصادي: تُعتبر أبواب WPC أقل سعراً من الأبواب الخشبية المصمتة، مع تقديم مزايا إضافية.',
+              'تشكيلة واسعة من الألوان والتصاميم: متوفرة بألوان وتشطيبات متنوعة تحاكي الخشب الطبيعي، مع إمكانية اختيار تصاميم عصرية وكلاسيكية.'
+            ]},
+            { type: 'h2', text: 'مقارنة بين WPC والخشب الطبيعي' },
+            { type: 'h3', text: 'من حيث المقاومة' },
+            { type: 'p', text: 'يتفوق WPC على الخشب الطبيعي في مقاومة الماء والرطوبة والحشرات، فالخشب الطبيعي قد يتورّم أو يتعرض لهجمات الحشرات، بينما WPC محصّن ضد هذه العوامل. لكن الخشب الطبيعي يتفوق في العزل الصوتي والحراري.' },
+            { type: 'h3', text: 'من حيث المظهر' },
+            { type: 'p', text: 'الخشب الطبيعي يقدم مظهراً فريداً بعروقه الطبيعية التي لا تتكرر، بينما WPC يحاكي هذا المظهر بشكل صناعي. مع التطور في تقنيات التصنيع، أصبح WPC يقدم مظهراً قريباً جداً من الخشب الطبيعي، لكنه يظل صناعياً.' },
+            { type: 'h3', text: 'من حيث السعر' },
+            { type: 'p', text: 'أبواب WPC أقل سعراً من الأبواب الخشبية المصمتة من خشب الزان أو الموسكي، مما يجعلها خياراً اقتصادياً جذاباً، خاصة للمشاريع الكبيرة التي تتطلب عدداً كبيراً من الأبواب.' },
+            { type: 'h3', text: 'من حيث العمر الافتراضي' },
+            { type: 'p', text: 'بفضل مقاومتها للعوامل الجوية والحشرات، تتمتع أبواب WPC بعمر افتراضي طويل قد يفوق الخشب الطبيعي في بعض الظروف، خاصة في المناطق ذات الرطوبة العالية.' },
+            { type: 'h2', text: 'مقارنة بين WPC و MDF' },
+            { type: 'p', text: 'ألواح MDF شائعة الاستخدام في تصنيع الأبواب، لكنها أقل مقاومة للماء من WPC. MDF قد تتورّم عند تعرضها للماء المباشر، بينما WPC محصّن ضد ذلك. من ناحية أخرى، MDF توفر سطحاً أملس مثالياً للدهان والقشرة، بينما WPC يأتي بتشطيب جاهز.' },
+            { type: 'h2', text: 'أين تستخدم أبواب WPC؟' },
+            { type: 'ul', items: [
+              'أبواب الحمامات: مثالية لحماماتها المقاومة للماء والرطوبة.',
+              'أبواب المطابخ: تتحمل رطوبة المطبخ والبخار.',
+              'أبواب المناطق الساحلية: مقاومة للرطوبة العالية في المناطق الساحلية.',
+              'أبواب المستشفيات والمرافق العامة: مقاومة للتنظيف المتكرر بالمواد الكيميائية.',
+              'أبواب المكاتب والمحلات: متانتها تتحمل الاستخدام المكثف.'
+            ]},
+            { type: 'h2', text: 'تركيب أبواب WPC مع أبو حور' },
+            { type: 'p', text: 'في شركة أبو حور، نقدم خدمة توريد وتركيب أبواب WPC بأحدث التصاميم وأجود الخامات. فريقنا المتخصص يضمن تركيباً دقيقاً ومحكماً مع ضمان على المنتج والعمل. نوفّر تشكيلة واسعة من الألوان والتصاميم لتناسب جميع الأذواق والميزانيات. تواصل معنا اليوم للاستشارة المجانية.' }
+          ]
+        },
+        '3': {
+          category: 'ديكورات',
+          title: 'ديكورات بديل الشيبورد: الحل العصري لمنزل أنيق',
+          date: '5 سبتمبر 2026',
+          tags: ['ديكورات', 'بديل الشيبورد', 'MDF', 'HDF', 'فورمايكا', 'جدران تزيينية', 'أسقف معلقة', 'ديكور داخلي', 'الرياض', 'تصميم داخلي'],
+          content: [
+            { type: 'p', text: 'مع تطور عالم الديكور الداخلي، أصبحت ديكورات بديل الشيبورد خياراً شائعاً لأصحاب المنازل والمكاتب الذين يبحثون عن حلول عصرية أنيقة ومتينة. في هذا المقال، نستعرض عالم ديكورات بديل الشيبورد، أنواعها، مزاياها، وكيف يمكن لها أن تحوّل جدرانك وأسقفك إلى تحف فنية.' },
+            { type: 'h2', text: 'ما هي ديكورات بديل الشيبورد؟' },
+            { type: 'p', text: 'ديكورات بديل الشيبورد هي حلول ديكورية تعتمد على ألواح MDF و HDF والفورمايكا عالية الجودة كبديل للألواح الشيبورد التقليدية. تتميز هذه البدائل بمتانة أعلى وتشطيب أجمل وقدرة أكبر على النقش والزخرفة، مما يجعلها مثالية لتطبيقات الديكور الداخلي المتقدمة.' },
+            { type: 'h2', text: 'أنواع الألواح المستخدمة في ديكورات بديل الشيبورد' },
+            { type: 'h3', text: 'ألواح MDF (Medium Density Fiberboard)' },
+            { type: 'p', text: 'ألواح MDF هي الأكثر شيوعاً في ديكورات بديل الشيبورد، تتكون من ألياف الخشب المضغوط بكثافة متوسطة. تتميز بسطح أملس مثالي للدهان والقشرة، وسهولة في النقش والزخرفة. تستخدم في الجدران التزيينية والأسقف المعلقة والألواح الجدارية والفواصل الخشبية.' },
+            { type: 'h3', text: 'ألواح HDF (High Density Fiberboard)' },
+            { type: 'p', text: 'ألواح HDF أصلب وأكثر متانة من MDF، تستخدم في التطبيقات التي تتطلب مقاومة أعلى. تتميز بسطح أملس جداً وقابلية عالية للتشكيل، وتستخدم في الديكورات عالية الجودة والتطبيقات التي تتطلب دقة عالية.' },
+            { type: 'h3', text: 'ألواح الفورمايكا' },
+            { type: 'p', text: 'الفورمايكا هي ألواح مغطاة بطبقة من البلاستيك المضغوط المقاوم للماء والخدوش، تأتي بألوان وتشطيبات متنوعة تحاكي الخشب الطبيعي أو ألوان صلبة. تتميز بسهولة التنظيف ومقاومتها العالية، مما يجعلها مثالية للجدران المعرضة للاستخدام المكثف.' },
+            { type: 'h2', text: 'تطبيقات ديكورات بديل الشيبورد' },
+            { type: 'h3', text: 'الجدران التزيينية' },
+            { type: 'p', text: 'تستخدم ألواح MDF و HDF في إنشاء جدران تزيينية بتصاميم عصرية وكلاسيكية، بنقوش هندسية أو زخرفية. يمكن تصميم الجدران بأشكال ثلاثية الأبعاد أو مسطحة، مع إضافة إضاءة مخفية لإبراز جمال التصميم. تُعتبر الجدران التزيينية حلاً مثالياً لصالونات والمجالس وغرف المعيشة.' },
+            { type: 'h3', text: 'الأسقف المعلقة' },
+            { type: 'p', text: 'الأسقف المعلقة بألواح MDF تضيف بُعداً جمالياً للغرفة، مع إمكانية دمج الإضاءة المخفية والسبوتات. تأتي بتصاميم متنوعة من المستوية إلى متعددة المستويات، وتُعتبر حلاً أنيقاً لإخفاء الأسلاك والتوصيلات السقفية.' },
+            { type: 'h3', text: 'الألواح الجدارية' },
+            { type: 'p', text: 'الألواح الجدارية هي ألواح خشبية تُثبت على الجدران لتضيف عمقاً وملمساً للجدار، تأتي بتصاميم خطوط أفقية أو رأسية أو زخرفية. تُستخدم لإبراز جدار معين في الغرفة أو لتحديد منطقة وظيفية.' },
+            { type: 'h3', text: 'الفواصل الخشبية' },
+            { type: 'p', text: 'الفواصل الخشبية تقسم المساحات الكبيرة إلى مناطق وظيفية دون الحاجة إلى جدران كاملة، تتميز بتصاميم عصرية مفتوحة تسمح بمرور الضوء والهواء. تُعتبر حلاً أنيقاً للمنازل المفتوحة والمكاتب.' },
+            { type: 'h2', text: 'مزايا ديكورات بديل الشيبورد' },
+            { type: 'ul', items: [
+              'متانة أعلى: ألواح MDF و HDF أصلب وأكثر متانة من الشيبورد التقليدي.',
+              'تشطيب أجمل: سطح أملس وناعم يقبل الدهان والقشرة بسهولة.',
+              'قدرة على النقش والزخرفة: يمكن نقش وزخرفة الألواح بأشكال هندسية وزخرفية متنوعة.',
+              'مقاومة أفضل للرطوبة: ألواح MDF و HDF مقاومة للرطوبة أفضل من الشيبورد.',
+              'عمر افتراضي أطول: تتميز بثبات لونها وشكلها عبر الزمن.',
+              'تشكيلة واسعة من الألوان والقشرة: متوفرة بألوان وتشطيبات متعددة تناسب جميع الأذواق.',
+              'سهولة الصيانة: تنظيف سهل بقطعة قماش رطبة، دون الحاجة لمنظفات خاصة.'
+            ]},
+            { type: 'h2', text: 'كيفية اختيار الديكور الأنسب لمساحتك' },
+            { type: 'p', text: 'عند اختيار ديكورات بديل الشيبورد لمساحتك، ننصح بمراعاة عدة عوامل: حجم الغرفة وارتفاع السقف، الديكور العام للمكان، الإضاءة المتوفرة، الوظيفة المطلوبة من الديكور، والميزانية المتاحة. ننصح دائماً بالاستعانة بفريق متخصص لضمان تحقيق أفضل نتيجة.' },
+            { type: 'h2', text: 'ديكورات بديل الشيبورد مع أبو حور' },
+            { type: 'p', text: 'في شركة أبو حور، نقدم خدمة تصميم وتركيب ديكورات بديل الشيبورد بأحدث التصاميم وأجود الخامات. فريقنا من المصممين والفنيين يحوّل رؤيتك إلى واقع ملموس بأدق التفاصيل، مع ضمان على العمل والمنتج. نوفّر تصاميم ثلاثية الأبعاد قبل التنفيذ لضمان رضاك التام. تواصل معنا اليوم للحصول على استشارة مجانية.' }
+          ]
+        }
+      };
+
+      function getQueryParam(name) {
+        var params = new URLSearchParams(window.location.search);
+        return params.get(name);
+      }
+
+      function renderContent(contentArr) {
+        var html = '';
+        contentArr.forEach(function (block) {
+          if (block.type === 'p') {
+            html += '<p>' + block.text + '</p>';
+          } else if (block.type === 'h2') {
+            html += '<h2>' + block.text + '</h2>';
+          } else if (block.type === 'h3') {
+            html += '<h3>' + block.text + '</h3>';
+          } else if (block.type === 'ul') {
+            html += '<ul>';
+            block.items.forEach(function (item) {
+              html += '<li>' + item + '</li>';
+            });
+            html += '</ul>';
+          }
+        });
+        return html;
+      }
+
+      function renderTags(tags) {
+        var html = '';
+        tags.forEach(function (tag) {
+          html += '<span>' + tag + '</span>';
+        });
+        return html;
+      }
+
+      var id = getQueryParam('id') || '1';
+      var article = articles[id] || articles['1'];
+
+      document.title = article.title + ' | أبو حور';
+      document.getElementById('articleCategory').textContent = article.category;
+      document.getElementById('articleTitle').textContent = article.title;
+      document.getElementById('articleDate').textContent = article.date;
+      document.getElementById('articleContent').innerHTML = renderContent(article.content);
+      document.getElementById('articleTags').innerHTML = renderTags(article.tags);
+
+      var img = document.getElementById('articleImage');
+      if (img.getAttribute('src') === '' || !img.getAttribute('src')) {
+        img.style.display = 'none';
+      }
+
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach(function (el) {
+          observer.observe(el);
+        });
+      } else {
+        document.querySelectorAll('.fade-in').forEach(function (el) {
+          el.classList.add('revealed');
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
